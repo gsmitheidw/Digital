@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>digital</id>
+    <version>0.27</version>
+	<packageSourceUrl>https://github.com/gsmitheidw/Digital</packageSourceUrl>
+    <owners>Graham Smith</owners>
+    <title>Digital</title>
+    <authors>H. Neemann</authors>
+    <projectUrl>https://github.com/hneemann/Digital</projectUrl>
+    <copyright>2021</copyright>
+	<licenseUrl>https://github.com/hneemann/Digital/blob/master/LICENSE</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/hneemann/Digital</projectSourceUrl>
+    <docsUrl>https://github.com/hneemann/Digital/releases/latest</docsUrl>
+    <bugTrackerUrl>https://github.com/hneemann/Digital/issues</bugTrackerUrl>
+    <tags>digital</tags>
+    <summary>Digital</summary>
+    <description>Digital</description>
+    <releaseNotes>https://github.com/hneemann/Digital/blob/master/distribution/ReleaseNotes.txt</releaseNotes>
+    <dependencies>
+      <dependency id="jre8" version="8.0.2910.10" />
+      <dependency id="chocolatey-core.extension" version="1.1.0" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
