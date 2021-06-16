@@ -15,3 +15,7 @@ Install-ChocolateyZipPackage @packageArgs
 
 $target = Join-Path $toolsDir "$($packageName).exe"
 Install-ChocolateyShortcut -shortcutFilePath "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\Digital.lnk" -targetPath $target 
+
+# We cannot set a specific dependency for Java Runtime as Oracle JRE, JDK and OpenJDK etc are all possible alternatives
+# In light of this, warn the user:
+Write-Warning "Note: a valid Java Runtime is required such as jre or equivavlent"
