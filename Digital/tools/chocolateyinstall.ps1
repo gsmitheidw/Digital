@@ -13,7 +13,7 @@ $packageArgs = @{
 
 Install-ChocolateyZipPackage @packageArgs
 
-$target = Join-Path $toolsDir "$($packageName).exe"
+$target = Join-Path $toolsDir "Digital\$($packageName).exe"
 Install-ChocolateyShortcut -shortcutFilePath "$env:ProgramData\Microsoft\Windows\Start Menu\Programs\Digital.lnk" -targetPath $target 
 
 # We cannot set a specific dependency for Java Runtime as Oracle JRE, JDK and OpenJDK etc are all possible alternatives
