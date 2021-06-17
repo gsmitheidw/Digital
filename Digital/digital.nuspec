@@ -8,15 +8,14 @@
     <title>Digital</title>
     <authors>H. Neemann</authors>
     <projectUrl>https://github.com/hneemann/Digital</projectUrl>
-    <copyright>2021</copyright>
 	<licenseUrl>https://github.com/hneemann/Digital/blob/master/LICENSE</licenseUrl>
     <requireLicenseAcceptance>true</requireLicenseAcceptance>
     <projectSourceUrl>https://github.com/hneemann/Digital</projectSourceUrl>
     <docsUrl>https://github.com/hneemann/Digital/releases/latest</docsUrl>
     <bugTrackerUrl>https://github.com/hneemann/Digital/issues</bugTrackerUrl>
     <tags>digital</tags>
-    <summary>Digital</summary>
-    <description>Digital</description>
+    <summary>Digital is an easy-to-use digital logic designer and circuit simulator designed for educational purposes.</summary>
+    <description>Digital is an easy-to-use digital logic designer and circuit simulator designed for educational purposes.</description>
     <releaseNotes>https://github.com/hneemann/Digital/blob/master/distribution/ReleaseNotes.txt</releaseNotes>
   </metadata>
   <files>
