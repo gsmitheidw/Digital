@@ -1,6 +1,6 @@
 ﻿$ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/hneemann/Digital/releases/latest/download/Digital.zip' 
+$url        = 'https://github.com/hneemann/Digital/releases/download/v0.28/Digital.zip'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
