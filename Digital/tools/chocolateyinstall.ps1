@@ -1,13 +1,13 @@
 ﻿$ErrorActionPreference = 'Stop'; 
 $toolsDir   = "$(Split-Path -parent $MyInvocation.MyCommand.Definition)"
-$url        = 'https://github.com/hneemann/Digital/releases/download/v0.28/Digital.zip'
+$url        = 'https://github.com/hneemann/Digital/releases/download/v0.29/Digital.zip'
 
 $packageArgs = @{
   packageName   = $env:ChocolateyPackageName
   unzipLocation = $toolsDir
   url           = $url
   softwareName  = 'Digital*' 
-  checksum      = 'A96509442CC7B6697E66C1420B9E42F91325E20F9F34CC13CBFD92CB9B90C70D'
+  checksum      = '4D61E2776100DDFE3F8638886E5B33E3B99165EEFEFAF9BA5C9B9FAD1F47F3A7'
   checksumType  = 'sha256' 
 }
 
